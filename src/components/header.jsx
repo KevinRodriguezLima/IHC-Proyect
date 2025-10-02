@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 export const Header = (props) => {
   return (
@@ -7,18 +7,18 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Learn More
-                </a>{" "}
+              <div className="col-md-10 col-md-offset-1 intro-text text-center">
+                <h1>{props.data ? props.data.title : "Interacción Humano-Computadora"}</h1>
+                <p>{props.data ? props.data.paragraph : "Ciencia de la Computación | Diseño centrado en el usuario"}</p>
+                
+                <div className="cta-buttons">
+                  <Link to="/proyecto-final" className="btn btn-custom btn-lg">
+                    🚀 Proyecto Final
+                  </Link>
+                  <Link to="/videojuego" className="btn btn-custom btn-lg">
+                    🎮 Videojuego
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

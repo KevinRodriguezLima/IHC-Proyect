@@ -1,40 +1,48 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Services } from "./components/services";
+import { About2 } from "./components/about2";
+import { AboutProject } from "./components/aboutProject";
+import { Process } from "./components/process";
 import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
 import "./App.css";
-
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
 
   return (
-    <div>
+    <Router basename="/IHC-Proyect">
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <Header data={landingPageData.Header} />
+        </Route>
+        <Route path="/proyecto-final">
+          <div style={{ marginTop: "110px" }}>
+            <About2 data={landingPageData.AboutProject} />
+          </div>
+          <Features data={landingPageData.Features} />
+        </Route>
+        <Route path="/videojuego">
+          <About data={landingPageData.About} />
+          <Gallery data={landingPageData.Gallery} />
+          <Process data={landingPageData.Process} />
+        </Route>
+        <Route path="/equipo">
+          <Team data={landingPageData.Team} />
+        </Route>
+      </Switch>
+    </Router>
+
   );
 };
 

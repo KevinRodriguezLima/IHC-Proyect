@@ -312,13 +312,13 @@ header .intro-text {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
+  text-align: center;
 }
-#services .service-desc {
-  margin: 10px 10px 20px;
-}
+
 #services h2 {
   color: #fff;
 }
+
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -329,27 +329,60 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+
+/* === TARJETAS DE PROCESO === */
+.service-card {
+  background: #f7f9fc; /* gris clarito en vez de blanco puro */
+  border-radius: 12px;
+  padding: 30px 20px;
+  margin: 15px 0;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+  color: #333;
 }
-#services h3 {
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.service-card h3 {
+  color: #222;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-card ul li {
+  margin: 8px 0;
+}
+
+/* Links con iconos */
+.service-card ul li a {
+  text-decoration: none;
+  color: #3b82f6;
   font-weight: 500;
-  padding: 5px 0;
-  color: #fff;
+  display: flex;
+  align-items: center;
 }
-#services p {
-  color: rgba(255, 255, 255, 0.75);
+
+.service-card ul li a:hover {
+  text-decoration: underline;
 }
-#services .service-desc {
-  margin-bottom: 40px;
+
+/* Iconos al lado del link */
+.service-card ul li a i {
+  margin-right: 8px;
+  font-size: 16px;
+  color: #3b82f6;
 }
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -440,23 +473,69 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
+/* Team Section */
 #team {
   padding: 100px 0;
 }
+
 #team h4 {
-  margin: 5px 0;
+  margin: 10px 0 5px;
+  font-weight: 600;
 }
-#team .team-img {
-  width: 240px;
+
+#team .team-card {
+  margin-bottom: 40px;
 }
-#team .thumbnail {
+
+#team .team-box {
   background: transparent;
-  border: 0;
+  border: none;
+  text-align: center;
 }
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
+
+#team .circle-frame {
+  width: 220px;       /* mismo ancho */
+  height: 220px;      /* mismo alto */
+  border-radius: 10%; /* cuadrado redondeado */
+  overflow: hidden;   /* recorta la imagen */
+  margin: 0 auto 15px;
+  border: 4px solid #608dfd; /* borde */
 }
+
+#team .team-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* recorta sin deformar */
+}
+
+#team .caption {
+  padding: 5px 0;
+}
+
+#team .caption h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #222;  /* texto oscuro */
+}
+
+#team .caption .role {
+  font-size: 14px;
+  color: #444;  /* gris fuerte */
+}
+
+#team .caption .extra {
+  font-size: 13px;
+  color: #666;  /* gris intermedio */
+}
+
+.cta-buttons {
+  margin-top: 20px;         /* deja espacio arriba (separa los botones del texto) */
+  display: flex;            /* convierte el contenedor en un flexbox */
+  gap: 30px;                /* espacio horizontal entre los botones */
+  justify-content: center;  /* centra los botones en el eje horizontal */
+}
+
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -603,4 +682,63 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+
+/* Centrar contenido en cada card */
+.service-card {
+  text-align: center;        /* centra títulos y texto */
+}
+
+/* El bloque de la descripción */
+.service-card .service-desc {
+  text-align: center;
+}
+
+/* La lista y cada ítem centrados horizontalmente */
+.service-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-card ul li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* centra cada fila (icono + texto) */
+  gap: 8px;
+}
+
+/* El enlace también centrado y alineado con el icono */
+.service-card ul li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.service-card ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Icono junto al texto */
+.service-card ul li a i {
+  font-size: 16px;
+  margin-right: 6px;
+  color: #3e5d8d;
+}
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px; /* gutter */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
 }

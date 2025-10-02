@@ -1,100 +1,151 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Interacción Humano-Computador",
+    "paragraph": "Ciencia de la Computación | Diseño centrado en el usuario"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Pizzería VR es un juego inmersivo en el que te conviertes en chef de una pizzería virtual. Combina interacción natural con objetos, clientes controlados por inteligencia artificial y minijuegos que transforman cada pedido en una experiencia divertida y única.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Atiende clientes con reacciones realistas gracias a IA",
+      "Prepara pizzas de manera interactiva con ingredientes virtuales",
+      "Participa en minijuegos: amasa, corta y hornea",
+      "Experimenta la cocina desde una perspectiva inmersiva en VR"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Ideal para experiencias educativas en VR",
+      "Pensado para entretenimiento en arcades y laboratorios",
+      "Diseñado con principios de usabilidad y UX",
+      "Escalable para futuras expansiones y nuevos modos de juego"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Cocina VR - Vista general",
+      "largeImage": "img/portfolio/inicio.jpg",
+      "smallImage": "img/portfolio/inicio.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Preparación de masa",
+      "largeImage": "img/portfolio/disparo.jpg",
+      "smallImage": "img/portfolio/disparo.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Añadiendo salsa y toppings",
+      "largeImage": "img/portfolio/cliente.jpg",
+      "smallImage": "img/portfolio/cliente.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Atendiendo a un cliente con IA",
+      "largeImage": "img/portfolio/cliente.jpg",
+      "smallImage": "img/portfolio/cliente.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Mini-juego: cortar ingredientes",
+      "largeImage": "img/portfolio/disparo.jpg",
+      "smallImage": "img/portfolio/disparo.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Mini-juego: horneado",
+      "largeImage": "img/portfolio/inicio.jpg",
+      "smallImage": "img/portfolio/inicio.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Clientes reaccionando",
+      "largeImage": "img/portfolio/cliente.jpg",
+      "smallImage": "img/portfolio/cliente.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Trabajo en equipo",
+      "largeImage": "img/portfolio/disparo.jpg",
+      "smallImage": "img/portfolio/disparo.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Proyecto en construcción",
+      "largeImage": "img/portfolio/inicio.jpg",
+      "smallImage": "img/portfolio/inicio.jpg"
+    },
+    {
+      "title": "Interacción con objetos",
+      "largeImage": "img/portfolio/disparo.jpg",
+      "smallImage": "img/portfolio/disparo.jpg"
+    },
+    {
+      "title": "Experiencia inmersiva",
+      "largeImage": "img/portfolio/inicio.jpg",
+      "smallImage": "img/portfolio/inicio.jpg"
+    },
+    {
+      "title": "Atención al detalle",
+      "largeImage": "img/portfolio/cliente.jpg",
+      "smallImage": "img/portfolio/cliente.jpg"
     }
   ],
-  "Services": [
+  "AboutProject": {
+    "paragraph": "Nuestro proyecto en IHC 2025 tiene como objetivo aplicar principios de usabilidad y explorar las dimensiones de la experiencia de usuario. Buscamos diseñar un sistema intuitivo, eficiente y satisfactorio para quienes lo utilicen.",
+    "Why": [
+      "Eficiencia: los usuarios completan tareas de forma rápida",
+      "Efectividad: el sistema cumple con los objetivos esperados",
+      "Seguridad: minimiza errores y ofrece retroalimentación clara",
+      "Accesibilidad: diseñado para diversos perfiles de usuario"
+    ],
+    "Why2": [
+      "Satisfacción: genera experiencias positivas",
+      "Aprendizaje: curva de uso intuitiva y clara",
+      "Memorabilidad: fácil de recordar tras un tiempo sin uso",
+      "Escalabilidad: preparado para futuras mejoras"
+    ]
+  },
+
+  "Process": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "stage": "Needfinding",
+      "deliverables": [
+        { "name": "Presentation PDF", "link": "files/needfinding.pdf" },
+        { "name": "Presentation PPT", "link": "files/needfinding.pptx" }
+      ]
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "stage": "POV & Experience Prototypes",
+      "deliverables": [
+        { "name": "Presentation PDF", "link": "files/pov.pdf" },
+        { "name": "Presentation PPT", "link": "files/pov.pptx" }
+      ]
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "stage": "Concept Video",
+      "deliverables": [
+        { "name": "Presentation PDF", "link": "files/concept.pdf" },
+        { "name": "Concept Video", "link": "https://youtube.com/..."}
+      ]
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "stage": "Low-Fi Prototype & Test",
+      "deliverables": [
+        { "name": "Report PDF", "link": "files/lofi-report.pdf" },
+        { "name": "Presentation PPT", "link": "files/lofi.pptx" }
+      ]
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "stage": "Medium-Fi Prototype",
+      "deliverables": [
+        { "name": "VR Prototype", "link": "https://..." },
+        { "name": "Mobile Prototype", "link": "https://..." }
+      ]
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "stage": "High-Fi Prototype",
+      "deliverables": [
+        { "name": "Prototype APK", "link": "files/apk.zip" },
+        { "name": "Final Report PDF", "link": "files/final.pdf" },
+        { "name": "Demo Video", "link": "https://youtube.com/..." }
+      ]
+    },
+    {
+      "stage": "Poster & Pitch",
+      "deliverables": [
+        { "name": "Poster", "link": "files/poster.pdf" },
+        { "name": "Pitch Slide", "link": "files/pitch.pptx" }
+      ]
     }
   ],
   "Testimonials": [
@@ -131,24 +182,28 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/kevin.webp",
+      "name": "Kevin Rodriguez",
+      "job": "Estudiante de Ciencias de la Computación",
+      "extra": "4to año – UNSA, Arequipa"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/salim.webp",
+      "name": "Salim Jorge",
+      "job": "Estudiante de Ciencias de la Computación",
+      "extra": "4to año – UNSA, Arequipa"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/daniel.webp",
+      "name": "Daniel Quiñones",
+      "job": "Estudiante de Ciencias de la Computación",
+      "extra": "4to año – UNSA, Arequipa"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/michael.webp",
+      "name": "Michael Ticona",
+      "job": "Estudiante de Ciencias de la Computación",
+      "extra": "4to año – UNSA, Arequipa"
     }
   ],
   "Contact": {
@@ -160,25 +215,30 @@
     "youtube": "youtube.com"
   },
   "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  {
+    "icon": "fa fa-comments-o",
+    "title": "Affordance",
+    "text": "Los elementos comunican claramente cómo deben usarse, evitando confusión en la interacción."
+  },
+  {
+    "icon": "fa fa-bullhorn",
+    "title": "Restricciones",
+    "text": "Se limita la acción de los usuarios para prevenir errores y mantener el control del sistema."
+  },
+  {
+    "icon": "fa fa-group",
+    "title": "Mapping",
+    "text": "La relación entre controles y resultados es natural e intuitiva, facilitando el aprendizaje."
+  },
+  {
+    "icon": "fa fa-magic",
+    "title": "Visibilidad",
+    "text": "La información importante es perceptible y clara, evitando que el usuario se pierda."
+  },
+  {
+    "icon": "fa fa-comments-o",
+    "title": "Feedback",
+    "text": "El sistema responde a las acciones de los usuarios con retroalimentación inmediata y comprensible."
+  }
+]
 }

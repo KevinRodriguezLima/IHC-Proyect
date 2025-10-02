@@ -1,31 +1,32 @@
 import React from "react";
 
-export const About = (props) => {
+export const About2 = (props) => {
   return (
-    <div id="about">
+    <div id="about2">
       <div className="container">
         <div className="row">
-          {/* Imagen del juego */}
-          <div className="col-xs-12 col-md-6">
+          {/* Imagen representativa del proyecto */}
+          <div classNyame="col-xs-12 col-md-6">
             <img 
-              src={process.env.PUBLIC_URL + "/img/about2.jpg"} 
-              className="img-responsive" 
-              alt="Juego VR" 
-            />
+            src={process.env.PUBLIC_URL + "/img/about.jpg"} 
+            className="img-responsive" 
+            alt="Proyecto IHC" 
+          />
+
 
           </div>
 
           {/* Texto descriptivo */}
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>Sobre el Juego</h2>
+              <h2>Sobre el Proyecto</h2>
               <p>
                 {props.data
                   ? props.data.paragraph
-                  : "Descubre nuestra Pizzería VR: una experiencia inmersiva donde te conviertes en chef, preparas pizzas auténticas, interactúas con clientes controlados por IA y disfrutas de minijuegos divertidos."}
+                  : "Nuestro proyecto en IHC busca aplicar principios de diseño de usabilidad y explorar las dimensiones de la experiencia de usuario. El objetivo es crear una solución tecnológica que sea intuitiva, accesible y significativa para los usuarios."}
               </p>
 
-              <h3>¿Por qué jugar Pizzería VR?</h3>
+              <h3>¿Por qué este Proyecto?</h3>
               <div className="list-style">
                 {/* Primera columna de razones */}
                 <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -35,8 +36,8 @@ export const About = (props) => {
                           <li key={`${d}-${i}`}>{d}</li>
                         ))
                       : [
-                          "Cocina pizzas en un entorno inmersivo",
-                          "Clientes con reacciones dinámicas gracias a IA",
+                          "Eficiencia: permite realizar tareas de forma rápida y clara",
+                          "Efectividad: asegura que los objetivos se cumplen sin errores",
                         ]}
                   </ul>
                 </div>
@@ -49,8 +50,8 @@ export const About = (props) => {
                           <li key={`${d}-${i}`}>{d}</li>
                         ))
                       : [
-                          "Minijuegos para hacer más divertida la experiencia",
-                          "Diseñado aplicando principios de usabilidad y UX",
+                          "Satisfacción: genera experiencias positivas",
+                          "Aprendizaje y memorabilidad: fácil de usar y recordar",
                         ]}
                   </ul>
                 </div>
