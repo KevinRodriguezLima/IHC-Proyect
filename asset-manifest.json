@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7de78efc.css",
-    "main.js": "/static/js/main.37c2f9e3.js",
-    "index.html": "/index.html",
-    "main.7de78efc.css.map": "/static/css/main.7de78efc.css.map",
-    "main.37c2f9e3.js.map": "/static/js/main.37c2f9e3.js.map"
+    "main.css": "/IHC-Proyect/static/css/main.7de78efc.css",
+    "main.js": "/IHC-Proyect/static/js/main.9c5e7da0.js",
+    "index.html": "/IHC-Proyect/index.html",
+    "main.7de78efc.css.map": "/IHC-Proyect/static/css/main.7de78efc.css.map",
+    "main.9c5e7da0.js.map": "/IHC-Proyect/static/js/main.9c5e7da0.js.map"
   },
   "entrypoints": [
     "static/css/main.7de78efc.css",
-    "static/js/main.37c2f9e3.js"
+    "static/js/main.9c5e7da0.js"
   ]
 }
