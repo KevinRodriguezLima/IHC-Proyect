@@ -31,7 +31,6 @@ const App = () => {
             <About2 data={landingPageData.AboutProject} />
           </div>
           <Features data={landingPageData.Features} />
-          <Process data={landingPageData.Process} />
         </Route>
         <Route path="/videojuego">
           <About data={landingPageData.About} />
