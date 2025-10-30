@@ -7,7 +7,7 @@ export const Process = (props) => {
         <div className="section-title text-center">
           <h2>Proceso de Desarrollo</h2>
           <p>
-            Conoce cada etapa en la creación de nuestra Pizzería VR, desde la investigación inicial hasta el prototipo final.
+            Conoce cada etapa en la creación de nuestro Proyecto, desde la investigación inicial hasta el prototipo final.
           </p>
         </div>
         <div className="row">

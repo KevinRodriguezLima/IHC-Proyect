@@ -6,7 +6,7 @@ export const About2 = (props) => {
       <div className="container">
         <div className="row">
           {/* Imagen representativa del proyecto */}
-          <div classNyame="col-xs-12 col-md-6">
+          <div className="col-xs-12 col-md-6">
             <img 
             src={process.env.PUBLIC_URL + "/img/about.jpg"} 
             className="img-responsive" 
